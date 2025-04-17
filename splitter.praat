@@ -80,10 +80,10 @@
 
 form: "Splitter - Split intervals into separate files"
     comment: "This script extracts into individual files all non-empty intervals from a tier."
-    folder: "Input directory", "/home/silveira/Drive/Universidade/Doutorado/Experimentos/testing_area"
-    folder: "Output directory", "/home/silveira/Drive/Universidade/Doutorado/Experimentos/testing_area/results"
+    folder: "Input directory", ""
+    folder: "Output directory", ""
 
-    integer: "Interval tier number:", "8"
+    integer: "Interval tier number:", "1"
     sentence: "Filter intervals (regex allowed)", ""
     integer: "Sampling frequency", "44100"
 
@@ -102,7 +102,7 @@ form: "Splitter - Split intervals into separate files"
     comment: "Which character is used to separate variables in filename?"
     word: "Separator", "_"
     comment: "Which character is used to separate variables in filename?"
-    integer: "Position", "4"
+    integer: "Position", "1"
 endform
 
 if enumeration + start_and_end_times + interval_label == 0
