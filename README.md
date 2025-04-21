@@ -1,4 +1,4 @@
-**Support free software, support free science, support a free society.**
+**Support free software, support open science.**
 
 ---
 
